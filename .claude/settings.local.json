@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(where:*)",
+      "Bash(npm install:*)",
+      "Bash(md-to-pdf:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "WebSearch",
+      "WebFetch(domain:www.mintz.com)",
+      "WebFetch(domain:arapackelaw.com)",
+      "WebFetch(domain:ipo.org)",
+      "WebFetch(domain:patents.google.com)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
