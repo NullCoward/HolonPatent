@@ -44,15 +44,15 @@ This claim is extremely strong and highly defensible.
 
 ---
 
-## C1.3 Independent Claim Family — Token Budget Economics
+## C1.3 Independent Claim Family — Token Budget Computational Resource Management
 
-**Core Claim:**
-1. A resource-governance system comprising:
-   - a token budget for each holon;
-   - State metrics controlling usage;
-   - pruning or compression logic for exceeding budgets;
-   - inter-holon resource negotiation or allocation;
-   - wherein holons self-regulate based on computational constraints.
+**System Claim:**
+
+A computational resource management system for bounding artificial intelligence context consumption, comprising: a. a plurality of modular context containers , wherein each container is assigned a specific token budget value representing a maximum allowable serialized data footprint ; b. a metering logic configured to measure the current serialized size of a container’s State module prior to model invocation; c. a budget-enforcement trigger configured to automatically initiate state-mutation actions—selected from a group consisting of historical window pruning, embedding compression, or memory externalization—when the measured size exceeds the assigned token budget ; and d. an inter-container negotiation protocol configured to transfer token allocations between containers based on priority heuristics or task urgency .
+
+**Method Claim:**
+
+A method for optimizing transformer attention bandwidth via decentralized resource constraints, comprising: a. assigning a computational allowance to a cognitive unit; b. detecting a resource-constraint violation during a heartbeat cycle; c. executing a self-optimization routine within the cognitive unit to reduce its serialized context footprint below the allowance; and d. generating a token-efficient model query based on the reduced footprint.
 
 ---
 
